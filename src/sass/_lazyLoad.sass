@@ -1,0 +1,7 @@
+.lazy
+     opacity: 0 // Изначально элементы невидимы
+     transform: translateY(10rem) // Элемент смещён вниз
+     transition: opacity 1s, transform 1s // Переход для плавного появления
+     &.visible
+          opacity: 1 // Становится видимым
+          transform: translateY(0) // Возвращается в исходное положение
